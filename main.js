@@ -177,7 +177,6 @@ function handleLogin() {
 
       renderUserInfo(user);
 
-      // get all the files
       getGoogleDriveFiles();
       getGoogleContacts();
       getGoogleCalendarData();
